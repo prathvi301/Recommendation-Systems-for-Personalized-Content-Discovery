@@ -1,0 +1,83 @@
+SUCCESS CASES — Recommendations for active users
+=================================================================
+
+User 2335003  |  676 training ratings  |  avg rating 3.24★
+
+Top-rated movies (training):
+                                               title  rating
+               The Inn of the Sixth Happiness (1958)       5
+                                      Amadeus (1984)       5
+                                    True Lies (1994)       5
+                          Terms of Endearment (1983)       5
+Lord of the Rings: The Fellowship of the Ring (2001)       5
+                      The Old Man and the Sea (1958)       5
+                                 Door to Door (2002)       5
+                            Independent's Day (1998)       5
+
+SVD Top-10 recommendations:
+ rank                                               title  predicted_rating
+    1 Eagles: Farewell I Tour: Live from Melbourne (2004)             4.420
+    2                     The Hunt for Red October (1990)             4.354
+    3                                 Men in Black (1997)             4.349
+    4                                   Sister Act (1992)             4.322
+    5                                        Ghost (1990)             4.316
+    6                         Fried Green Tomatoes (1991)             4.299
+    7                      Raiders of the Lost Ark (1981)             4.297
+    8                                    The Mummy (1999)             4.293
+    9        Harry Potter and the Sorcerer's Stone (2001)             4.289
+   10                             Independence Day (1996)             4.279
+─────────────────────────────────────────────────────────────────
+
+User 2181151  |  459 training ratings  |  avg rating 3.91★
+
+Top-rated movies (training):
+                     title  rating
+        The Goonies (1985)       5
+               Kids (1995)       5
+  Dog Day Afternoon (1975)       5
+     Benny and Joon (1993)       5
+            Sanjuro (1962)       5
+   Schindler's List (1993)       5
+The Boondock Saints (1999)       5
+    Ichi the Killer (2001)       5
+
+SVD Top-10 recommendations:
+ rank                                                           title  predicted_rating
+    1       The Blue Planet: Seas of Life: Tidal Seas - Coasts (2001)             5.557
+    2                                       Concert for George (2003)             5.454
+    3                                      The Life of Mammals (2002)             5.445
+    4 The Blue Planet: Seas of Life: Ocean World - Frozen Seas (2001)             5.348
+    5                                     The Shield: Season 3 (2004)             5.334
+    6                   Homicide: Life on the Street: Season 3 (1994)             5.322
+    7                                       The Wire: Season 2 (2003)             5.314
+    8                         Talking Heads: Stop Making Sense (1984)             5.295
+    9                 House of Cards Trilogy I: House of Cards (1990)             5.286
+   10                                                Red Beard (1965)             5.279
+─────────────────────────────────────────────────────────────────
+
+User 742175  |  293 training ratings  |  avg rating 3.61★
+
+Top-rated movies (training):
+                                      title  rating
+Indiana Jones and the Temple of Doom (1984)       5
+                  Dead Poets Society (1989)       5
+                    Harold and Maude (1971)       5
+                        Men in Black (1997)       5
+                          The Matrix (1999)       5
+                          Armageddon (1998)       5
+                    Dead Man Walking (1995)       5
+                  The Usual Suspects (1995)       5
+
+SVD Top-10 recommendations:
+ rank                                                   title  predicted_rating
+    1                                           Amelie (2001)             4.808
+    2                                   Lost: Season 1 (2004)             4.679
+    3                          The West Wing: Season 1 (1999)             4.591
+    4                          The West Wing: Season 3 (2001)             4.590
+    5                          The West Wing: Season 2 (1999)             4.583
+    6                   Arrested Development: Season 2 (2004)             4.572
+    7                                      Whale Rider (2003)             4.558
+    8                        As Time Goes By: Series 9 (2002)             4.546
+    9     U2: Go Home: Live From Slane Castle, Ireland (2002)             4.538
+   10 The Daily Show with Jon Stewart: Indecision 2004 (2004)             4.535
+─────────────────────────────────────────────────────────────────

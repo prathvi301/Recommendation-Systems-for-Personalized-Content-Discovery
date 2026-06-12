@@ -1,0 +1,81 @@
+rank,movie_id,title,predicted_rating,model,user_id,because_you_liked
+1,12872,Eagles: Farewell I Tour: Live from Melbourne (2004),4.42,SVD,2335003,
+2,6274,The Hunt for Red October (1990),4.354,SVD,2335003,
+3,12918,Men in Black (1997),4.349,SVD,2335003,
+4,6386,Sister Act (1992),4.322,SVD,2335003,
+5,3106,Ghost (1990),4.316,SVD,2335003,
+6,1144,Fried Green Tomatoes (1991),4.299,SVD,2335003,
+7,10042,Raiders of the Lost Ark (1981),4.297,SVD,2335003,
+8,985,The Mummy (1999),4.293,SVD,2335003,
+9,17627,Harry Potter and the Sorcerer's Stone (2001),4.289,SVD,2335003,
+10,15124,Independence Day (1996),4.279,SVD,2335003,
+1,14961,Lord of the Rings: The Return of the King: Extended Edition (2003),4.434,KNN,2335003,"Lord of the Rings: The Fellowship of the Ring (2001) [rated 5★, similarity=0.994] | The Shawshank Redemption: Special Edition (1994) [rated 4★, similarity=0.984] | Indiana Jones and the Last Crusade (1989) [rated 5★, similarity=0.982]"
+2,5582,Star Wars: Episode V: The Empire Strikes Back (1980),4.398,KNN,2335003,"Indiana Jones and the Last Crusade (1989) [rated 5★, similarity=0.983] | Lord of the Rings: The Fellowship of the Ring (2001) [rated 5★, similarity=0.982] | The Shawshank Redemption: Special Edition (1994) [rated 4★, similarity=0.981]"
+3,7230,The Lord of the Rings: The Fellowship of the Ring: Extended Edition (2001),4.39,KNN,2335003,"Lord of the Rings: The Fellowship of the Ring (2001) [rated 5★, similarity=0.996] | The Shawshank Redemption: Special Edition (1994) [rated 4★, similarity=0.984] | Indiana Jones and the Last Crusade (1989) [rated 5★, similarity=0.982]"
+4,13031,Star Trek: The Next Generation: Season 3 (1989),4.384,KNN,2335003,"Indiana Jones and the Last Crusade (1989) [rated 5★, similarity=0.964] | X2: X-Men United (2003) [rated 4★, similarity=0.964] | The Last Starfighter (1984) [rated 5★, similarity=0.964]"
+5,17307,CSI: Season 4 (2003),4.371,KNN,2335003,"The Shawshank Redemption: Special Edition (1994) [rated 4★, similarity=0.975] | Kiss the Girls (1997) [rated 3★, similarity=0.973] | Harry Potter and the Prisoner of Azkaban (2004) [rated 5★, similarity=0.972]"
+6,7057,Lord of the Rings: The Two Towers: Extended Edition (2002),4.367,KNN,2335003,"Lord of the Rings: The Fellowship of the Ring (2001) [rated 5★, similarity=0.995] | The Shawshank Redemption: Special Edition (1994) [rated 4★, similarity=0.983] | Indiana Jones and the Last Crusade (1989) [rated 5★, similarity=0.982]"
+7,16265,Star Wars: Episode IV: A New Hope (1977),4.359,KNN,2335003,"Indiana Jones and the Last Crusade (1989) [rated 5★, similarity=0.981] | Lord of the Rings: The Fellowship of the Ring (2001) [rated 5★, similarity=0.979] | The Shawshank Redemption: Special Edition (1994) [rated 4★, similarity=0.978]"
+8,8447,24: Season 1 (2001),4.347,KNN,2335003,"The Shawshank Redemption: Special Edition (1994) [rated 4★, similarity=0.976] | Schindler's List (1993) [rated 4★, similarity=0.972] | Presumed Innocent (1990) [rated 3★, similarity=0.972]"
+9,8468,CSI: Season 3 (2002),4.321,KNN,2335003,"The Shawshank Redemption: Special Edition (1994) [rated 4★, similarity=0.975] | Harry Potter and the Prisoner of Azkaban (2004) [rated 5★, similarity=0.973] | Pirates of the Caribbean: The Curse of the Black Pearl (2003) [rated 5★, similarity=0.973]"
+10,14621,Shrek (Full-screen) (2001),4.298,KNN,2335003,"The Shawshank Redemption: Special Edition (1994) [rated 4★, similarity=0.976] | Aladdin: Platinum Edition (1992) [rated 3★, similarity=0.975] | The Green Mile (1999) [rated 4★, similarity=0.974]"
+1,11914,The Blue Planet: Seas of Life: Tidal Seas - Coasts (2001),5.557,SVD,2181151,
+2,1689,Concert for George (2003),5.454,SVD,2181151,
+3,2754,The Life of Mammals (2002),5.445,SVD,2181151,
+4,8664,The Blue Planet: Seas of Life: Ocean World - Frozen Seas (2001),5.348,SVD,2181151,
+5,7110,The Shield: Season 3 (2004),5.334,SVD,2181151,
+6,15947,Homicide: Life on the Street: Season 3 (1994),5.322,SVD,2181151,
+7,11925,The Wire: Season 2 (2003),5.314,SVD,2181151,
+8,12032,Talking Heads: Stop Making Sense (1984),5.295,SVD,2181151,
+9,4054,House of Cards Trilogy I: House of Cards (1990),5.286,SVD,2181151,
+10,7047,Red Beard (1965),5.279,SVD,2181151,
+1,1476,Six Feet Under: Season 4 (2004),5.0,KNN,2181151,"Cinema Paradiso: Director's Cut (1988) [rated 5★, similarity=0.977] | Stand by Me (1986) [rated 5★, similarity=0.976] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.976]"
+2,4353,Curb Your Enthusiasm: Season 3 (2002),5.0,KNN,2181151,"GoodFellas: Special Edition (1990) [rated 5★, similarity=0.969] | Miller's Crossing (1990) [rated 5★, similarity=0.968] | Rashomon (1950) [rated 5★, similarity=0.967]"
+3,5103,The Simpsons: Season 5 (1993),5.0,KNN,2181151,"GoodFellas: Special Edition (1990) [rated 5★, similarity=0.980] | Raiders of the Lost Ark (1981) [rated 5★, similarity=0.979] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.979]"
+4,5760,The Sopranos: Season 3 (2001),5.0,KNN,2181151,"GoodFellas: Special Edition (1990) [rated 5★, similarity=0.979] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.977] | Raiders of the Lost Ark (1981) [rated 5★, similarity=0.975]"
+5,8116,The Sopranos: Season 4 (2002),5.0,KNN,2181151,"GoodFellas: Special Edition (1990) [rated 5★, similarity=0.978] | Band of Brothers (2001) [rated 5★, similarity=0.977] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.976]"
+6,12293,The Godfather (1972),5.0,KNN,2181151,"GoodFellas: Special Edition (1990) [rated 5★, similarity=0.984] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.980] | Raiders of the Lost Ark (1981) [rated 5★, similarity=0.980]"
+7,14302,The Sopranos: Season 2 (2000),5.0,KNN,2181151,"GoodFellas: Special Edition (1990) [rated 5★, similarity=0.979] | Band of Brothers (2001) [rated 5★, similarity=0.978] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.977]"
+8,14533,The Office: Series 2 (2002),5.0,KNN,2181151,"Miller's Crossing (1990) [rated 5★, similarity=0.972] | Dog Day Afternoon (1975) [rated 5★, similarity=0.970] | Best in Show (2000) [rated 2★, similarity=0.969]"
+9,16147,The Sopranos: Season 1 (1999),5.0,KNN,2181151,"GoodFellas: Special Edition (1990) [rated 5★, similarity=0.979] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.976] | Raiders of the Lost Ark (1981) [rated 5★, similarity=0.974]"
+10,10080,Six Feet Under: Season 2 (2001),4.984,KNN,2181151,"The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.972] | Schindler's List (1993) [rated 5★, similarity=0.972] | Cinema Paradiso: Director's Cut (1988) [rated 5★, similarity=0.971]"
+1,6029,Amelie (2001),4.808,SVD,742175,
+2,3456,Lost: Season 1 (2004),4.679,SVD,742175,
+3,5519,The West Wing: Season 1 (1999),4.591,SVD,742175,
+4,4427,The West Wing: Season 3 (2001),4.59,SVD,742175,
+5,13556,The West Wing: Season 2 (1999),4.583,SVD,742175,
+6,7833,Arrested Development: Season 2 (2004),4.572,SVD,742175,
+7,3371,Whale Rider (2003),4.558,SVD,742175,
+8,13665,As Time Goes By: Series 9 (2002),4.546,SVD,742175,
+9,3509,"U2: Go Home: Live From Slane Castle, Ireland (2002)",4.538,SVD,742175,
+10,17165,The Daily Show with Jon Stewart: Indecision 2004 (2004),4.535,SVD,742175,
+1,7230,The Lord of the Rings: The Fellowship of the Ring: Extended Edition (2001),4.833,KNN,742175,"Lord of the Rings: The Return of the King (2003) [rated 4★, similarity=0.996] | Lord of the Rings: The Two Towers (2002) [rated 4★, similarity=0.995] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.984]"
+2,7057,Lord of the Rings: The Two Towers: Extended Edition (2002),4.782,KNN,742175,"Lord of the Rings: The Return of the King (2003) [rated 4★, similarity=0.996] | Lord of the Rings: The Two Towers (2002) [rated 4★, similarity=0.996] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.983]"
+3,14961,Lord of the Rings: The Return of the King: Extended Edition (2003),4.777,KNN,742175,"Lord of the Rings: The Return of the King (2003) [rated 4★, similarity=0.997] | Lord of the Rings: The Two Towers (2002) [rated 4★, similarity=0.995] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.984]"
+4,16265,Star Wars: Episode IV: A New Hope (1977),4.597,KNN,742175,"Lord of the Rings: The Return of the King (2003) [rated 4★, similarity=0.981] | Lord of the Rings: The Two Towers (2002) [rated 4★, similarity=0.980] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.978]"
+5,5582,Star Wars: Episode V: The Empire Strikes Back (1980),4.596,KNN,742175,"Lord of the Rings: The Return of the King (2003) [rated 4★, similarity=0.983] | Lord of the Rings: The Two Towers (2002) [rated 4★, similarity=0.982] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.981]"
+6,15296,Band of Brothers (2001),4.556,KNN,742175,"Saving Private Ryan (1998) [rated 5★, similarity=0.983] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.980] | Lord of the Rings: The Return of the King (2003) [rated 4★, similarity=0.978]"
+7,15861,CSI: Season 2 (2001),4.543,KNN,742175,"Finding Nemo (Widescreen) (2003) [rated 4★, similarity=0.973] | The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.972] | Monsters, Inc. (2001) [rated 5★, similarity=0.970]"
+8,10042,Raiders of the Lost Ark (1981),4.536,KNN,742175,"The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.982] | Indiana Jones and the Temple of Doom (1984) [rated 5★, similarity=0.981] | Back to the Future (1985) [rated 3★, similarity=0.981]"
+9,16147,The Sopranos: Season 1 (1999),4.531,KNN,742175,"The Sopranos: Season 2 (2000) [rated 5★, similarity=0.995] | The Sopranos: Season 4 (2002) [rated 4★, similarity=0.993] | The Godfather (1972) [rated 4★, similarity=0.982]"
+10,17307,CSI: Season 4 (2003),4.531,KNN,742175,"The Shawshank Redemption: Special Edition (1994) [rated 5★, similarity=0.975] | Finding Nemo (Widescreen) (2003) [rated 4★, similarity=0.974] | The Sixth Sense (1999) [rated 5★, similarity=0.972]"
+1,7110,The Shield: Season 3 (2004),5.52,SVD,441484,
+2,6142,Law & Order: Special Victims Unit: The Fifth Year (2003),5.513,SVD,441484,
+3,8468,CSI: Season 3 (2002),5.239,SVD,441484,
+4,2162,CSI: Season 1 (2000),5.233,SVD,441484,
+5,5700,Law & Order: Season 14 (2003),5.192,SVD,441484,
+6,12397,Law & Order: Season 2 (1991),5.165,SVD,441484,
+7,17307,CSI: Season 4 (2003),5.158,SVD,441484,
+8,14464,"Stevie Ray Vaughan and Double Trouble: Live from Austin, Texas (1995)",5.149,SVD,441484,
+9,4266,The Passion of the Christ (2004),5.122,SVD,441484,
+10,9802,Doobie Brothers: Rockin' Down the Highway: The Wildlife Concert (2004),5.119,SVD,441484,
+1,7110,The Shield: Season 3 (2004),5.243,SVD,961288,
+2,14911,The Shield: Season 1 (2002),5.175,SVD,961288,
+3,17085,24: Season 2 (2002),5.163,SVD,961288,
+4,16147,The Sopranos: Season 1 (1999),5.114,SVD,961288,
+5,14550,The Shawshank Redemption: Special Edition (1994),5.093,SVD,961288,
+6,15086,The World at War (1974),5.089,SVD,961288,
+7,8116,The Sopranos: Season 4 (2002),5.074,SVD,961288,
+8,3290,"The Godfather, Part II (1974)",5.067,SVD,961288,
+9,12293,The Godfather (1972),5.061,SVD,961288,
+10,8447,24: Season 1 (2001),5.033,SVD,961288,

@@ -1,0 +1,34 @@
+  NETFLIX PRIZE EDA -- KEY INSIGHTS SUMMARY (v2)
+DATASET
+     3,408,342 ratings | 471,830 users | 17,681 movies
+  Fill rate 0.0409% -- matrix is 99.96% sparse
+  Avg 7 ratings/user | 193 ratings/movie
+
+RATING SKEW  (positivity / self-selection bias)
+  58.0% of ratings are 4-5 stars | only 14.8% are 1-2 stars
+  Global mean = 3.63  (well above neutral 3.0)
+  Implication: threshold >= 3.5 captures genuine positive signal
+
+POWER-LAW DISTRIBUTIONS
+  Top 1% of users contribute 6% of all ratings
+  Top 20% of movies receive 88% of all ratings
+  Movie popularity Gini coefficient = 0.834  (severe concentration)
+  28% of movies have < 10 ratings  (long-tail cold-start)
+
+COLD START
+  95% of users have < 20 training ratings  (CF unreliable)
+  Fallback strategy: popularity-based recommendations for cold users
+
+USER & MOVIE BIAS
+  User rating tendencies vary widely (sigma = 0.69 stars)
+  SVD bias terms directly correct for this -- key advantage over plain CF
+
+RELEASE YEAR PATTERNS
+  Classic movies score higher on average (survivor bias)
+  Recent-era movies receive the largest share of ratings (recency effect)
+
+MODEL IMPLICATIONS
+  1. SVD preferred over plain CF due to explicit bias correction
+  2. Item-CF benefits from long-tail films (explainability)
+  3. Cold-start users (~95%) need a popularity fallback
+  4. Temporal recency improves MAP@10 ranking quality

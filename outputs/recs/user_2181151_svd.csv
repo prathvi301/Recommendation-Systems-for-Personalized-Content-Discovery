@@ -1,0 +1,11 @@
+rank,movie_id,title,predicted_rating,model,user_id
+1,11914,The Blue Planet: Seas of Life: Tidal Seas - Coasts (2001),5.557,SVD,2181151
+2,1689,Concert for George (2003),5.454,SVD,2181151
+3,2754,The Life of Mammals (2002),5.445,SVD,2181151
+4,8664,The Blue Planet: Seas of Life: Ocean World - Frozen Seas (2001),5.348,SVD,2181151
+5,7110,The Shield: Season 3 (2004),5.334,SVD,2181151
+6,15947,Homicide: Life on the Street: Season 3 (1994),5.322,SVD,2181151
+7,11925,The Wire: Season 2 (2003),5.314,SVD,2181151
+8,12032,Talking Heads: Stop Making Sense (1984),5.295,SVD,2181151
+9,4054,House of Cards Trilogy I: House of Cards (1990),5.286,SVD,2181151
+10,7047,Red Beard (1965),5.279,SVD,2181151

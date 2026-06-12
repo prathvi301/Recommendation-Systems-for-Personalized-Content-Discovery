@@ -1,0 +1,126 @@
+FAILURE / COLD-START CASES
+COLD-START STRATEGY: Users with fewer than 20 training ratings
+cannot be served by collaborative filtering (insufficient signal).
+Fallback: recommend globally popular high-quality films.
+Better fallback: content-based filtering using release year/genre.
+
+User 441484  |  36 training ratings  (cold-start zone)
+
+Training history:
+                                       title  rating
+               Pooh's Heffalump Movie (2005)       5
+                       Racing Stripes (2005)       5
+                              Con Air (1997)       5
+                  Remember the Titans (2000)       5
+                    Home on the Range (2004)       5
+                                 Troy (2004)       5
+                         Mystic River (2003)       5
+                              Elektra (2005)       5
+             The Manchurian Candidate (2004)       5
+                   Barbie: Fairytopia (2005)       5
+         Harold and the Purple Crayon (1960)       5
+                              Ice Age (2002)       5
+               Mulan: Special Edition (1998)       5
+            Finding Nemo (Widescreen) (2003)       5
+                          High Crimes (2002)       5
+                        Pete's Dragon (1977)       5
+                           Entrapment (1999)       5
+     Spirit: Stallion of the Cimarron (2002)       5
+                             I, Robot (2004)       5
+                 Cheaper by the Dozen (2003)       5
+                   Gone in 60 Seconds (2000)       5
+                     Two Weeks Notice (2002)       4
+    Star Wars: Episode IV: A New Hope (1977)       4
+                       50 First Dates (2004)       4
+                            Novocaine (2001)       4
+                  Alice in Wonderland (1951)       4
+                      The Incredibles (2004)       3
+                              Hidalgo (2004)       3
+                             S.W.A.T. (2003)       3
+The League of Extraordinary Gentlemen (2003)       3
+     Dodgeball: A True Underdog Story (2004)       2
+             The Million Dollar Hotel (2001)       2
+    Bridget Jones: The Edge of Reason (2004)       2
+Anchorman: The Legend of Ron Burgundy (2004)       2
+            The Count of Monte Cristo (2002)       1
+                            De-Lovely (2004)       1
+
+SVD Top-10 (limited signal):
+ rank                                                                  title  predicted_rating
+    1                                            The Shield: Season 3 (2004)             5.520
+    2               Law & Order: Special Victims Unit: The Fifth Year (2003)             5.513
+    3                                                   CSI: Season 3 (2002)             5.239
+    4                                                   CSI: Season 1 (2000)             5.233
+    5                                          Law & Order: Season 14 (2003)             5.192
+    6                                           Law & Order: Season 2 (1991)             5.165
+    7                                                   CSI: Season 4 (2003)             5.158
+    8  Stevie Ray Vaughan and Double Trouble: Live from Austin, Texas (1995)             5.149
+    9                                       The Passion of the Christ (2004)             5.122
+   10 Doobie Brothers: Rockin' Down the Highway: The Wildlife Concert (2004)             5.119
+
+Popularity fallback (applied instead for cold users):
+ rank                                                         title  avg_rating
+    1 Pirates of the Caribbean: The Curse of the Black Pearl (2003)    4.153825
+    2                                       Independence Day (1996)    3.714045
+    3                                           Forrest Gump (1994)    4.298646
+    4                                         The Green Mile (1999)    4.310309
+    5                                      Miss Congeniality (2000)    3.360345
+    6                                            The Patriot (2000)    3.779565
+    7                                           Pretty Woman (1990)    3.897660
+    8                      Lord of the Rings: The Two Towers (2002)    4.466198
+    9          Lord of the Rings: The Fellowship of the Ring (2001)    4.428165
+   10                                 The Day After Tomorrow (2004)    3.445645
+─────────────────────────────────────────────────────────────────
+
+User 961288  |  21 training ratings  (cold-start zone)
+
+Training history:
+                                                                  title  rating
+                         Pie in the Sky: The Brigid Berlin Story (2000)       5
+                            Richard Rodgers: The Sweetest Sounds (2001)       5
+                                        Louis Armstrong: Satchmo (2000)       5
+                        Mahalia Jackson: The Power and the Glory (1997)       5
+                      Rodgers & Hammerstein: The Sound of Movies (1996)       5
+                        Leonard Bernstein: Reaching for the Note (1998)       5
+Marcus Garvey: Look for Me in the Whirlwind: American Experience (2001)       5
+          Deepak Chopra: Seven Spiritual Laws & The Crystal Cave (2000)       5
+                                                   South Pacific (1958)       4
+       The Beast that Killed Women/ The Monster of Camp Sunshine (1965)       4
+                                       Timothy Leary's Last Trip (1996)       4
+                                                    Inspirations (1997)       4
+                                                        Carousel (1956)       4
+                                                         Camelot (1967)       4
+                                                     Mama Africa (2002)       4
+                                                Cradle Will Rock (1999)       4
+                                                 Minority Report (2002)       3
+                  Deepak Chopra: The Way of the Wizard & Alchemy (2000)       3
+                                                  Modesty Blaise (1966)       2
+                                                 Roots of Rhythm (1997)       2
+                            Mari-Cookie and the Killer Tarantula (1998)       1
+
+SVD Top-10 (limited signal):
+ rank                                            title  predicted_rating
+    1                      The Shield: Season 3 (2004)             5.243
+    2                      The Shield: Season 1 (2002)             5.175
+    3                              24: Season 2 (2002)             5.163
+    4                    The Sopranos: Season 1 (1999)             5.114
+    5 The Shawshank Redemption: Special Edition (1994)             5.093
+    6                          The World at War (1974)             5.089
+    7                    The Sopranos: Season 4 (2002)             5.074
+    8                    The Godfather, Part II (1974)             5.067
+    9                             The Godfather (1972)             5.061
+   10                              24: Season 1 (2001)             5.033
+
+Popularity fallback (applied instead for cold users):
+ rank                                                         title  avg_rating
+    1 Pirates of the Caribbean: The Curse of the Black Pearl (2003)    4.153825
+    2                                       Independence Day (1996)    3.714045
+    3                                           Forrest Gump (1994)    4.298646
+    4                                         The Green Mile (1999)    4.310309
+    5                                      Miss Congeniality (2000)    3.360345
+    6                                            The Patriot (2000)    3.779565
+    7                                           Pretty Woman (1990)    3.897660
+    8                      Lord of the Rings: The Two Towers (2002)    4.466198
+    9          Lord of the Rings: The Fellowship of the Ring (2001)    4.428165
+   10                                 The Day After Tomorrow (2004)    3.445645
+─────────────────────────────────────────────────────────────────

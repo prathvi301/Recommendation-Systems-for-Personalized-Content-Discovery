@@ -1,0 +1,11 @@
+rank,movie_id,title,avg_rating,n_ratings,popularity_score,model
+1,1905,Pirates of the Caribbean: The Curse of the Black Pearl (2003),4.153824960969786,21778,90462.0,Popularity (cold-start fallback)
+2,15124,Independence Day (1996),3.714045036160421,24336,90385.0,Popularity (cold-start fallback)
+3,11283,Forrest Gump (1994),4.298646034816247,20680,88896.0,Popularity (cold-start fallback)
+4,16377,The Green Mile (1999),4.310309429535122,20457,88176.0,Popularity (cold-start fallback)
+5,5317,Miss Congeniality (2000),3.360344694334956,25878,86959.0,Popularity (cold-start fallback)
+6,14313,The Patriot (2000),3.779565352650993,22501,85044.0,Popularity (cold-start fallback)
+7,6287,Pretty Woman (1990),3.8976596039329734,21663,84435.0,Popularity (cold-start fallback)
+8,11521,Lord of the Rings: The Two Towers (2002),4.466197666437886,17484,78087.0,Popularity (cold-start fallback)
+9,2452,Lord of the Rings: The Fellowship of the Ring (2001),4.428165089684797,17227,76284.0,Popularity (cold-start fallback)
+10,15205,The Day After Tomorrow (2004),3.4456452348381212,21930,75563.0,Popularity (cold-start fallback)

@@ -1,0 +1,11 @@
+rank,movie_id,title,predicted_rating,model,user_id
+1,12872,Eagles: Farewell I Tour: Live from Melbourne (2004),4.42,SVD,2335003
+2,6274,The Hunt for Red October (1990),4.354,SVD,2335003
+3,12918,Men in Black (1997),4.349,SVD,2335003
+4,6386,Sister Act (1992),4.322,SVD,2335003
+5,3106,Ghost (1990),4.316,SVD,2335003
+6,1144,Fried Green Tomatoes (1991),4.299,SVD,2335003
+7,10042,Raiders of the Lost Ark (1981),4.297,SVD,2335003
+8,985,The Mummy (1999),4.293,SVD,2335003
+9,17627,Harry Potter and the Sorcerer's Stone (2001),4.289,SVD,2335003
+10,15124,Independence Day (1996),4.279,SVD,2335003
